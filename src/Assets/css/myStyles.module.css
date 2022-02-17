@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayCount{
+    background-color: white;
+    font-size: 80px;
+    color: slateblue;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.groupButtons{
+    margin-top: 20px;
+    width: 100%;
+    flex-flow: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Buttonazo{
+    width: 45%;
+    padding: 10px 0;
+    display: inline;
+    background-color: slateblue;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
